@@ -1,0 +1,70 @@
+/**
+ * Copyright 2015 Google Inc. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* Colors */
+
+$lime700: #89ffe9;
+$cyan: #81d4fe;
+
+$blueGrey50: #1c58ad; // 1c58ad
+$blueGrey300: #174584; // 174584
+$blueGrey400: #123566; // 123566
+$blueGrey500: #0d2649; // 0d2649
+$blueGrey600: #091a32; // 091a32
+$blueGrey700: #061121; // 061121
+$blueGrey800: #040a14; // 040a14
+
+$grey200: #b4cff8; // b4cff8
+$grey300: #97bcf4; // 97bcf4
+$grey400: #8eb7f6; // 8eb7f6
+$grey500: #82b1f6; // 82b1f6
+$grey700: #376cbb; // 376cbb
+$grey800: #040a14;
+
+$backgroundColor: #193662;
+$mainColor: $cyan;
+$accentColor: #89b0ff;
+
+/* Typography */
+
+$keyline: 8px;
+
+$textSize: 16px;
+$textLineHeight: 1.5;
+$textColor: lighten(#000, 20%);
+
+$helperTextSize: 14px;
+$helperTextLineHeight: 24px;
+$helperTextColor: lighten(#000, 56%);
+
+$headlineSize: 1.4em;
+$headlineLineHeight: 1em;
+$headlineColor: #000;
+
+$radius: 3px;
+
+/* Breakpoints */
+
+$phone-breakpoint-min: 320px;
+$phone-breakpoint-max: 767px;
+
+$tablet-breakpoint-min: $phone-breakpoint-max + 1;
+$tablet-breakpoint-mid: 884px;
+$tablet-breakpoint-max: 944px;
+
+$desktop-breakpoint-min: $tablet-breakpoint-max + 1;
+$desktop-breakpoint-mid: 1136px;
+$desktop-breakpoint-max: 1264px;
